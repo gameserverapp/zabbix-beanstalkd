@@ -491,7 +491,7 @@
                             <key>custom.beanstalkd.tubes.name[{#TUBENAME}]</key>
                             <delay>3600</delay>
                             <history>90</history>
-                            <trends>365</trends>
+                            <trends>0</trends>
                             <status>0</status>
                             <value_type>1</value_type>
                             <allowed_hosts/>
