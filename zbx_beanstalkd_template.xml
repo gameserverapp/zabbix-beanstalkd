@@ -53,7 +53,7 @@
                     <description/>
                     <item_prototypes>
                         <item_prototype>
-                            <name>Tube:$1:cmd_delete</name>
+                            <name>Tube:{#TUBENAME}:cmd_delete</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -96,7 +96,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:cmd_pause_tube</name>
+                            <name>Tube:{#TUBENAME}:cmd_pause_tube</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -139,7 +139,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:current_jobs_buried</name>
+                            <name>Tube:{#TUBENAME}:current_jobs_buried</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -182,7 +182,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:current_jobs_delayed</name>
+                            <name>Tube:{#TUBENAME}:current_jobs_delayed</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -225,7 +225,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:current_jobs_ready</name>
+                            <name>Tube:{#TUBENAME}:current_jobs_ready</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -268,7 +268,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:current_jobs_reserved</name>
+                            <name>Tube:{#TUBENAME}:current_jobs_reserved</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -311,7 +311,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:current_jobs_urgent</name>
+                            <name>Tube:{#TUBENAME}:current_jobs_urgent</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -354,7 +354,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:current_using</name>
+                            <name>Tube:{#TUBENAME}:current_using</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -397,7 +397,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:current_waiting</name>
+                            <name>Tube:{#TUBENAME}:current_waiting</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -440,7 +440,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:current_watching</name>
+                            <name>Tube:{#TUBENAME}:current_watching</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -483,7 +483,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:name</name>
+                            <name>Tube:{#TUBENAME}:name</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -526,7 +526,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:pause</name>
+                            <name>Tube:{#TUBENAME}:pause</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -569,7 +569,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:pause_time_left</name>
+                            <name>Tube:{#TUBENAME}:pause_time_left</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -612,7 +612,7 @@
                             <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
-                            <name>Tube:$1:total_jobs</name>
+                            <name>Tube:{#TUBENAME}:total_jobs</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
